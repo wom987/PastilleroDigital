@@ -26,7 +26,7 @@ public class MostrarPastilla extends AppCompatActivity {
         //Recorrer la lista de los registros
         for(int i=0; i<lista.size();i++){
             //Concatenar los resultados
-            valores += " idPastilla: "+lista.get(i).idPastilla+ "Nombre:"+lista.get(i).pastilla+" Unidad: "+lista.get(i).unidad+" Duracion: "+lista.get(i).duracion+" Frecuencia: "+lista.get(i).frecuencia+"Hora:"+lista.get(i).hora+"\n";
+            valores += " Identificador Pastilla: "+lista.get(i).idPastilla+ " Nombre: "+lista.get(i).pastilla+" Unidad: "+lista.get(i).unidad+" Duracion: "+lista.get(i).duracion+" Frecuencia: "+lista.get(i).frecuencia+" Hora: "+lista.get(i).hora+"\n\n";
 
         }//Fin del FOR
         //Asignar el acumulador al textview de los resultados

@@ -29,7 +29,7 @@ TextView txvMostrar;
         //Recorrer la lista de los registros
         for(int i=0; i<lista.size();i++){
             //Concatenar los resultados
-            valores += "idCita: "+lista.get(i).idCita+": "+" Hora: "+ lista.get(i).fecha+"Fecha: "+lista.get(i).hora +"Lugar: " +lista.get(i).lugar+ "\n";
+            valores += " Hora: "+ lista.get(i).fecha+" Fecha: "+lista.get(i).hora +" Lugar: " +lista.get(i).lugar+ "\n\n";
 
         }//Fin del FOR
         //Asignar el acumulador al textview de los resultados

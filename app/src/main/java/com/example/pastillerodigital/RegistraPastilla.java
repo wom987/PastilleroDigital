@@ -93,6 +93,8 @@ public class RegistraPastilla extends AppCompatActivity {
                                         Toast.LENGTH_SHORT).show();
                                 Data data = guardarData("Medicamento:","tomar: "+txtNombre.getText().toString(), random);
                                 WorkManagerNot.guardarNoti(alertTime,data,tag);
+                                Intent intent = new Intent(getBaseContext(),Inicio.class);
+                                startActivity(intent);
                             }
                         })
                         .setCancelButton("No", new SweetAlertDialog.OnSweetClickListener() {

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>Aerosol(es)</item>
+        <item>Ampolla(s)</item>
+        <item>Aplicacion(es)</item>
+        <item>Comprimido(s)</item>
+        <item>Cucharada(s)</item>
+        <item>Cucharadita(s)</item>
+        <item>Gota(s)</item>
+        <item>Gramaos(s)</item>
+        <item>Inyecciones(s)</item>
+        <item>Mililitros(s)</item>
+        <item>Parche(s)</item>
+        <item>Pastillas(s)</item>
+        <item>Sobre(s)</item>
+        <item>Unidad(s)</item>
+        <item>Ovulos(s)</item>
+    </string-array>
+    <string-array name="Duracion">
+        <item>sin fecha de finalizacion</item>
+        <item>hasta la fecha</item>
+        <item>para x dias</item>
+    </string-array>
+    <string-array name="Frecuencia">
+        <item>Diaramente x veces al dia</item>
+        <item>Diaramente cada x hora</item>
+        <item>cada x dias</item>
+        <item>Dias especificos de la semana</item>
+        <item>ciclo x dias activos y dias de descanso</item>
+    </string-array>
+</resources>
